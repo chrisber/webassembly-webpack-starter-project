@@ -1,0 +1,36 @@
+{
+  "name": "hello-webassembly",
+  "version": "1.0.0",
+  "description": "Webassembly starter project",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config config/webpack.dev.js --inline --progress --profile --info --colors --watch",
+    "prod": "rimraf dist && webpack --config config/webpack.prod.js  --progress --profile --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Webassembly"
+  ],
+  "author": "Christian Karl Bernasko",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^6.0.53",
+    "awesome-typescript-loader": "^3.0.0-beta.17",
+    "binary-loader": "0.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.2",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "tslint-loader": "^2.1.5",
+    "typescript": "^2.1.4",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0-rc.0",
+    "webpack-dev-server": "^2.2.0-rc.0",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.2.0"
+  }
+}

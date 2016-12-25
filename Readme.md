@@ -26,8 +26,7 @@ make build
 ### Building the hello world wasm
  ```
  cd <webassembly-webpack-starter-project>/src/cpp/
- docker run --rm --name generate-wasm-default -v ${PWD}:/src  -i -t chrisber/llvm-webassembly:latest  /bin/bash
- /bin/build.sh hello_world.c
+ docker run --rm --name generate-wasm-default -v ${PWD}:/src  -i -t chrisber/llvm-webassembly:latest /bin/build.sh hello_world.c
 ```
 
 or 
@@ -71,4 +70,3 @@ npm run dev
         ├── polyfills.ts   
         ├── index.ts (entry file to build .js)   
         └── vendor.ts   
-   

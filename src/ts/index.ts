@@ -17,6 +17,7 @@ const main = () => {
                 console.log("count function result is : " + wasm.count());
                 console.log("count function result is : " + wasm.count());
                 console.log("count function result is : " + wasm.count());
+                console.log("add function result is : " + wasm.add(1,1));
             });
     } else {
         console.log("Your browser doesn't support Web Assembly. You may need " +
